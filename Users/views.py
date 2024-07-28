@@ -1,9 +1,6 @@
-# from django.shortcuts import render
-
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 
-def homePage(request):    
-    html = "<html><body> <h1> Home Page </h1> </body></html>" 
-    return HttpResponse(html)
+def homePage(request):       
+    return render(request,'Users/index.html')

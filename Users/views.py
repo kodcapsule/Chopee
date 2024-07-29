@@ -2,5 +2,5 @@ from django.shortcuts import render
 
 
 
-def homePage(request):       
-    return render(request,'Users/index.html')
+def userCustomer(request):       
+    return render(request,'Users/userCustomer.html')
